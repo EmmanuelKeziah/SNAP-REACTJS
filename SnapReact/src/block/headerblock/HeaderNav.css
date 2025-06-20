@@ -1,0 +1,13 @@
+.HeaderNav1Container {
+  display: flex;
+  gap: 20px;
+
+  
+}
+
+.rightStyle {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    /* background: red; */
+}
