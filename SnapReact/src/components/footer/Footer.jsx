@@ -4,9 +4,9 @@ const Footer = () => {
     return (
         <div className="footer">
 
-            <p>
+            <a href="#">
                 copyright &copy; 2023 SnapReact. All rights reserved.
-            </p>
+            </a>
         </div>
     );
 }
