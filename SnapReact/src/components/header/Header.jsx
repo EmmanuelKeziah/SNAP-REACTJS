@@ -1,15 +1,10 @@
-import "./Header.css"
-import HeaderNav1 from "../../block/headerblock/HeaderNav1.jsx";
-import HeaderNav2 from "../../block/headerblock/HeaderNav2.jsx";
-
+import HeaderNav from "../../static/headerblock/HeaderNav.jsx";
 const Header = () => {
-    return (
-        <div className="mainHeader">
-           <HeaderNav1 />
-
-           <HeaderNav2 />
-        </div>
-    );
-}
+  return (
+    <div className="mainHeader">
+      <HeaderNav />
+    </div>
+  );
+};
 
 export default Header;
