@@ -6,7 +6,7 @@ import OnClick from "./components/hero/OnClick.jsx";
 
 const App = () => {
   return (
-    <div className="mainContainer">
+    <div className="max-w-[1400px] mx-auto">
       <Header />
       <Hero />
       <OnClick />
