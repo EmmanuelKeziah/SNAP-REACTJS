@@ -1,9 +1,9 @@
-import HeaderNav from "../../static/headerblock/HeaderNav.jsx";
+import HeaderDesktop from "../../static/headerblock/HeaderDesktop.jsx";
 
 const Header = () => {
   return (
-    <div className="mainHeader">
-      <HeaderNav />
+    <div className="w-full">
+      <HeaderDesktop />
     </div>
   );
 };

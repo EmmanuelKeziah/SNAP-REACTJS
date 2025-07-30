@@ -23,10 +23,10 @@ const HeaderMobile = () => {
       </div>
 
       {handleToggle && (
-        <div className="absolute shadow-md z-50 top-12 max-w-[40%] bg-white flex flex-col px-6 py-4 lg:hidden text-base right-0 ">
-          <div className="flex flex-col gap-4">
+        <div className="absolute shadow-md z-50 top-11 bottom-0 w-[70vw] sm:w-[40vw] space-y-3 bg-white flex flex-col px-6 py-4 lg:hidden right-1 ">
+          <div className="flex flex-col gap-2">
             <div
-              className="flex items-center justify-between cursor-pointer"
+              className="flex items-center gap-2 cursor-pointer"
               onClick={() => setFeatures(!features)}
             >
               <span className="hover:text-[#141414]">Features</span>
@@ -38,7 +38,7 @@ const HeaderMobile = () => {
             </div>
 
             {features && (
-              <div className="flex flex-col pl-2">
+              <div className="flex flex-col pl-2 text-left ">
                 <div className="flex gap-2">
                   <img src={todo} alt="Todo-icon" className="w-5 h-5" />
                   <span className="hover:text-[#141414] hover:cursor-pointer mb-1">
@@ -78,7 +78,7 @@ const HeaderMobile = () => {
 
           <div className="flex flex-col gap-1">
             <div
-              className="flex items-center justify-between cursor-pointer"
+              className="flex items-center gap-2 cursor-pointer"
               onClick={() => setCompany(!company)}
             >
               <span className="hover:text-[#141414]">Company</span>
@@ -110,6 +110,25 @@ const HeaderMobile = () => {
                 </div>
               </div>
             )}
+          </div>
+
+          <div>
+            <span className="hover:cursor-pointer hover:text-[#141414]">
+              Careers
+            </span>
+          </div>
+
+          <div>
+            <span className="hover:cursor-pointer hover:text-[#141414]">
+              About
+            </span>
+          </div>
+
+          <div className="flex flex-col space-y-2 justify-between items-center">
+            <div className="hover:cursor-pointer">Login</div>
+            <button className="border-1 border-[#141414] px-[30%] py-1 rounded-lg hover:bg-[#141414] hover:text-white transition-colors duration-300 hover:cursor-pointer shadow-md">
+              Register
+            </button>
           </div>
         </div>
       )}
