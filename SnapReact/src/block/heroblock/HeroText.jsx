@@ -1,11 +1,11 @@
 import Icons from "../../block/heroblock/Icons";
 const HeroText = () => {
   return (
-    <main className="flex items-center ">
+    <main className="flex items-center max-w-[1200px]">
       <div className=" px-8 space-y-7 ">
         <h1
           className="max-w-[75%]
-        font-bold text-7xl"
+        font-bold sm:text-2xl bg-red-400 lg:text-5xl leading-tight"
         >
           Make remote work
         </h1>

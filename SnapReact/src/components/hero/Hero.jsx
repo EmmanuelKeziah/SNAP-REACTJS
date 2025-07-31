@@ -3,7 +3,7 @@ import HeroImage from "../../block/heroblock/heroImage";
 
 const Hero = () => {
   return (
-    <div className="flex flex-col-reverse   flex-wrap lg:flex-row justify-between max-w-[1200px]  mx-auto items-center">
+    <div className="flex flex-col-reverse lg:flex-row lg:justify-between bg-green-400 mx-auto items-center max-w-[1200px]">
       <HeroText />
       <HeroImage />
     </div>
