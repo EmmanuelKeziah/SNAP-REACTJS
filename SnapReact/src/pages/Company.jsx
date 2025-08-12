@@ -8,7 +8,7 @@ const Company = () => {
 
   return (
     <div
-      className="relative flex items-center hover:text-[#141414] transition-colors duration-200 cursor-pointer "
+      className=" relative flex items-center hover:text-[#141414] transition-colors duration-200 cursor-pointer "
       onMouseEnter={() => setCompany(true)}
       onMouseLeave={() => setCompany(false)}
     >
